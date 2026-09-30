@@ -1,8 +1,8 @@
-# Samuel Agbokpo | Senior DevOps Engineer
+# Samuel Alabi | Senior DevOps Engineer
 
-Personal portfolio for Senior DevOps Engineer Samuel Agbokpo, built as a responsive, static GitHub Pages site.
+Personal portfolio for Samuel Alabi, a Senior DevOps Engineer with 6+ years of experience across cloud infrastructure, fintech and payment systems, Kubernetes, and CI/CD.
 
-The portfolio uses the professional profile and skills recorded here previously. Project and article lists start empty so that only real work and published writing are shown. LinkedIn and email remain clearly marked for your preferred URLs.
+The site is static HTML, CSS, and JavaScript with no build step. Resume-based experience, skills, qualifications, and reported outcomes are summarized on the page. Public project and article lists start empty until links are added. Contact details are listed in `content.js`, including the phone number and email from the resume.
 
 ## Add projects
 
@@ -22,8 +22,9 @@ Add an entry to `articles`:
 
 ## Add contact links
 
-Update LinkedIn and Email in the `contacts` list in `content.js`. For email, use a `mailto:` URL such as `mailto:name@example.com`.
+Update LinkedIn, Phone, and Email in the `contacts` list in `content.js`. Use `tel:` for the phone URL and `mailto:` for the email URL.
 
 ## Publish
 
-This site uses plain HTML, CSS, and JavaScript and has no build step. GitHub Pages serves the root of the `main` branch at `https://revival-drive.github.io/` once Pages is enabled in **Settings → Pages**.
+This site has no build step. GitHub Pages can serve the root of the `main` branch at `https://revival-drive.github.io/` when Pages is enabled in **Settings → Pages**.
+

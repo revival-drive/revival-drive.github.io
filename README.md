@@ -1,77 +1,29 @@
----
-title: Samuel Agbokpo | Senior DevOps Engineer
-description: Senior DevOps engineer building reliable cloud infrastructure, CI/CD pipelines and Kubernetes platforms.
----
+# Samuel Agbokpo | Senior DevOps Engineer
 
-# Samuel Agbokpo
+Personal portfolio for Senior DevOps Engineer Samuel Agbokpo, built as a responsive, static GitHub Pages site.
 
-**Senior DevOps Engineer**
+The portfolio uses the professional profile and skills recorded here previously. Project and article lists start empty so that only real work and published writing are shown. LinkedIn and email remain clearly marked for your preferred URLs.
 
-I build infrastructure that ships without drama. I design CI/CD pipelines, Kubernetes platforms and cloud infrastructure that teams can trust. Available for freelance projects and remote roles.
+## Add projects
 
-[LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN) | [GitHub](https://github.com/YOUR-GITHUB) | [Email](mailto:you@example.com)
+Edit `content.js` and add an entry to `projects`:
 
----
+```js
+{ title: "Project name", category: "PLATFORM ENGINEERING", summary: "What it does and the result.", stack: ["Kubernetes", "Terraform"], url: "https://github.com/revival-drive/project" }
+```
 
-## About
+## Add articles
 
-<!-- EDIT: replace with your own story, years of experience and industries -->
-I'm a senior DevOps engineer who turns slow, manual releases into automated, repeatable ones. I care about reliability, security and keeping cloud costs under control.
+Add an entry to `articles`:
 
-I work with startups and growing teams as a freelancer, and I'm open to remote DevOps roles. I'm also active in the cloud native community.
+```js
+{ title: "Article title", summary: "A short description.", date: "SEP 2026", category: "CLOUD", url: "https://example.com/article" }
+```
 
-## Skills
+## Add contact links
 
-<!-- EDIT: keep only what you can back up in an interview -->
-| Area | Tools |
-|---|---|
-| Cloud | AWS, Azure, GCP |
-| Containers and orchestration | Docker, Kubernetes, Helm |
-| Infrastructure as code | Terraform, Ansible |
-| CI/CD | GitHub Actions, GitLab CI, Jenkins, Argo CD |
-| Observability | Prometheus, Grafana, ELK |
-| Scripting and security | Bash, Python, secrets management, image scanning |
+Update LinkedIn and Email in the `contacts` list in `content.js`. For email, use a `mailto:` URL such as `mailto:name@example.com`.
 
-## Experience
+## Publish
 
-<!-- EDIT: add your real roles, newest first, with measurable results -->
-### Freelance DevOps Engineer
-*20XX to present*
-
-- Built CI/CD pipelines that cut release time from hours to minutes for client teams.
-- Migrated workloads to Kubernetes with Terraform-managed infrastructure.
-- Set up monitoring and alerting so incidents are caught before customers notice.
-
-### Senior DevOps Engineer, Company Name
-*20XX to 20XX*
-
-- Describe one result with a number: cost saved, uptime gained or deploy frequency.
-- Describe a platform or tool you led and who used it.
-
-## Projects
-
-<!-- EDIT: link each project to a real repo or write-up -->
-### Kubernetes platform on AWS
-Production-ready EKS cluster with GitOps deployments, autoscaling and secrets management.
-*Terraform, EKS, Argo CD* | [View on GitHub](https://github.com/YOUR-GITHUB/REPO)
-
-### Reusable CI/CD templates
-Pipeline templates that build, test, scan and deploy containerised apps with one config file.
-*GitHub Actions, Docker, Trivy* | [View on GitHub](https://github.com/YOUR-GITHUB/REPO)
-
-### Observability stack
-Dashboards and alerts for cluster health, application latency and cost.
-*Prometheus, Grafana, Alertmanager* | [View on GitHub](https://github.com/YOUR-GITHUB/REPO)
-
-## Community
-
-<!-- EDIT: update as your CNCF community work progresses -->
-I'm working on starting a CNCF Cloud Native Community Group in my city to bring engineers together to learn Kubernetes and cloud native tools, and I contribute to open source projects in the ecosystem.
-
-## Contact
-
-Have a pipeline that needs fixing, a migration to plan or a role to fill? Send me a message and I'll reply within two working days.
-
-- Email: [you@example.com](mailto:you@example.com)
-- LinkedIn: [linkedin.com/in/YOUR-LINKEDIN](https://www.linkedin.com/in/YOUR-LINKEDIN)
-- GitHub: [github.com/YOUR-GITHUB](https://github.com/YOUR-GITHUB)
+This site uses plain HTML, CSS, and JavaScript and has no build step. GitHub Pages serves the root of the `main` branch at `https://revival-drive.github.io/` once Pages is enabled in **Settings → Pages**.
